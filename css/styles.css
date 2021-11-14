@@ -1,0 +1,423 @@
+/* work-sans-regular - latin */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/work-sans-v13-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/work-sans-v13-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", "Arial", "Helvetica", serif;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header_open{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header_link{
+    display: block;
+    width: 150px;
+    height: 40px;
+}
+
+.header_box{
+    display: flex;
+    margin-left: 165px;
+    list-style-type: none;
+}
+
+.header_tetil{
+    margin-right: 40px;
+}
+
+.header_links{
+    text-decoration: none;
+    width: 66px;
+    font-size: 15px;
+    line-height: 10px;
+    color: #222222;
+}
+
+.header_links:hover{  
+    color:#0082F3 ;
+}
+
+.home{
+    color: blue;
+}
+.main_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_contact{
+    position: fixed;
+    width: 36px;
+    height: 108px;
+    left: -2px;
+    top: 92px;
+    
+    background: #39CDCC;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 6px 6px;
+}
+
+.section_contact{
+    position: fixed;
+    width: 56px;
+    height: 20px;
+    left: -10px;
+    top: 132px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    color: #000000;
+    transform: rotate(90deg);
+}
+
+.section_text{
+    margin-top: 165px;
+    margin-left: 100px;
+    width: 306px;
+    height: 120px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 60px;
+    color: #333333;
+}
+
+.section_instant{
+    width: 434px;
+    height: 70px;
+    left: 212px;
+    top: 385px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.section_frame{
+    display: flex;
+    margin-left: 100px;
+}
+
+.section_link{
+    display: block;
+    margin-right: 8px;
+    height: 50px;
+}
+
+.section_img{
+    width: 147px;
+    height: 50px;
+    
+}
+
+.section_images{
+    width: 458px;
+    height: 564px;
+}
+
+.sektion_img{
+    width: 374px;
+    height: 397px;
+    margin-left: 100px;
+    margin-top: 140px;
+    margin-right: 155px;
+}
+
+.sektion_box{
+    display: flex;
+}
+
+.sektion_text{
+    width: 392px;
+    height: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    color: #333333;
+    margin-top: 204px;
+    /* margin-left: 144px; */
+    margin-bottom: 32px;
+}
+
+.sektion_savings{
+    width: 310px;
+    height: 70px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.section_frames{
+    display: flex;
+}
+
+.secteon{
+    width: 291px;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 50px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
+    color: #333333; 
+    margin-bottom: 40px;   
+}
+
+.secteon_img{
+    width: 288px;
+    height: 12px;
+}
+
+.secteon_qutti{
+    margin-top: -4px;
+    width: 288px;
+    height: 327px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px #B7B7B7;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secteon_qutti:hover{
+    box-shadow: 0 0 8px 0 #222222;
+}
+
+.secteon_quttii:hover{
+    box-shadow: 0 0 8px 0 #222222;
+}
+
+.secteon_quttiii:hover{
+    box-shadow: 0 0 8px 0 #222222;
+}
+
+.secteon_imgs{
+    width: 303px;
+    height: 12px;
+}
+
+.secteon_rasim{
+    width: 277px;
+    height: 12px;
+}
+
+.secteon_quttii{
+    margin-top: -4px;
+    width: 303px;
+    height: 327px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px #B7B7B7;
+    border-radius: 0px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secteon_quttiii{
+    margin-top: -4px;
+    width: 277px;
+    height: 327px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px #B7B7B7;
+    border-radius: 0px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.secteon_images{
+    margin-top: 42px;
+}
+
+.secteon_imagess{
+    margin-top: 42px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.secteon_nomi{
+    margin-top: 49px;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.secteon_qutti{
+    padding: 0 20px;
+}
+
+.secteon_taref{
+    margin-top: 31px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
+
+.secteon_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 88px;
+}
+
+.backgroun{
+    background-color: #31C5A1;
+    width: 100%;
+    height: 371px;
+    margin-top: 29px;
+}
+
+.download{
+    margin-top: 131px;
+    width: 555px;
+    height: 70px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.karopka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+}
+
+.images_frame{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.section_img_fram{
+    display: block;
+    width: 132px;
+    height: 50px;
+}
+
+.header_imgs{
+    margin-top: 57px;
+}
+.footer{
+    display: flex;
+}
+
+.footer_box{
+    display: flex;
+    margin-top: 57px;
+    margin-bottom: 55px;
+}
+
+.footer_office{
+    margin-left: 160px;
+}
+
+.footer_lekki{
+    width: 167px;
+    height: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.footer_contact{
+    margin-left: 143px;
+}
+
+.footer_com{
+    width: 158px;
+    height: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer_decription{
+    margin-left: 162px;
+}
+
+.footer_text{
+    height: 125px;
+    width: 264px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
